@@ -156,7 +156,7 @@ void dezalocareMatrice(struct Aeroprot*** matrice, int** nrColoane, int* nrClust
 	}
 	free(*matrice);
 	(*matrice) = NULL;
-	free(*nrColoane);
+	free(*nrColoane); 
 	(*nrColoane) = NULL;
 	(*nrClustere) = 0;
 }
