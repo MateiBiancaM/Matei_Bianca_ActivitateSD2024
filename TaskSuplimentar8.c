@@ -3,7 +3,7 @@
 #include<malloc.h>
 #include<string.h>
 
-typedef struct Pacient Pacient;
+typedef struct Pacient Pacient; 
 typedef struct Heap Heap;
 
 struct Pacient {
